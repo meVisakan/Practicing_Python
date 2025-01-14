@@ -1,0 +1,9 @@
+Programming Language: Python
+Types of Framework: Hybrid - Robot
+Test Base Class: LoginLib.py
+Page Object Design Model: .csv
+Functions: .py
+Property files: Execution variables.robot
+Parametrization:  ES DB
+Version Control: Github
+Continuous Integration Tool: Jenkins
