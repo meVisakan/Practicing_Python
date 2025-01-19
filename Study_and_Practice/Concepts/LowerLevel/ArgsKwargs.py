@@ -12,4 +12,4 @@ def order_pizza(size, *toppings, **details):
 
 # Input
 size = "large"
-order_pizza(size, "pepperoni", "cheese", "onion", delivery=True, tip=5)
+order_pizza(size, "pepperoni", "cheese", "onion", delivery="Yes", tip=5)
