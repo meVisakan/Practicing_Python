@@ -3,8 +3,10 @@
 def remove_word(sentence, word, n):
     slist = sentence.split(" ")
     count = 0
+    word = word.lower()
+
     for w in range(len(slist)):
-        if slist[w].lower() == word.lower():
+        if slist[w].lower() == word:
             count += 1
             if count == n:
                 del slist[w]

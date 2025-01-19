@@ -5,6 +5,8 @@ def sum_elements(array):
     for i in array:
         summ += i
     print(f"Sum of all the elements in an array is: {summ}")
+    array.append({"sum": summ})
+    print(array)
 
 
 # Input the array

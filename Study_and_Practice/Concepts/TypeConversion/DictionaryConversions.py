@@ -1,7 +1,6 @@
 # Write programs to convert a Dictionary into a list, a set, a tuple and a string
 
-def dict_conversion():
-    my_dict = {"a": 1, "b": 2, "c": 3}
+def dict_conversion(my_dict):
 
     # Dictionary to List
     my_list_keys = list(my_dict)    # Only keys
@@ -24,4 +23,6 @@ def dict_conversion():
     print(my_str)
 
 
-dict_conversion()
+# Input
+my_dict = {"a": 1, "b": 2, "c": 3}
+dict_conversion(my_dict)

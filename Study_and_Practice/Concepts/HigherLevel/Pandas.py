@@ -3,7 +3,7 @@ import numpy as np
 
 
 # File path is given along with delimiter to make it look neat
-df = pd.read_csv('/Users/mvisakan/PycharmProjects/PracticingPython/Data/hotel-booking-data.txt', delimiter='\t')
+df = pd.read_csv('/Data/hotel-booking-data.txt', delimiter='\t')
 # Removing all the slashes from the file
 df = df.replace(r"\\", "", regex=True)
 
