@@ -8,7 +8,9 @@ def max_rep(sent):
             char_count[char] += 1
         else:
             char_count[char] = 1
-        maxx = max(char_count.values())
+
+    maxx = max(char_count.values())
+
     for key, val in char_count.items():
         if val == maxx:
             max_chars.append(key)
@@ -16,5 +18,5 @@ def max_rep(sent):
 
 
 # Input
-sent = str(input("Enter the sentence to be checked: "))
+sent = str(input("Enter the sentence to be checked: "))     # Hellooo
 max_rep(sent)

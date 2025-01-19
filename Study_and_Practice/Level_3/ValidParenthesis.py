@@ -9,8 +9,8 @@ def valid_parenthesis(s):
 
     for char in s:
         if char in mapping:
-            top_element = stack.pop() if stack else '#'
-            if mapping[char] != top_element:
+            top_element = stack.pop()
+            if not stack or top_element != mapping[char]:
                 return False
         else:
             stack.append(char)
