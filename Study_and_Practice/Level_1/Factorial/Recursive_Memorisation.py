@@ -1,11 +1,9 @@
 # Finding the factorial of a number using memorization
 
-memo = {}
+memo = {0: 1}
 
 
 def factorial_memory(num):
-    if num == 0:
-        return 1
     if num in memo:
         return memo[num]
     memo[num] = num * factorial_memory(num-1)

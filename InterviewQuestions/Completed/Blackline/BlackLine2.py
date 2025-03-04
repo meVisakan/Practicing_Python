@@ -3,7 +3,7 @@
 def rotate_list(q_list, k):
     n = len(q_list) // k
 
-    r_list = q_list[n+1::] + q_list[n::]
+    r_list = q_list[n::] + q_list[::n]
     print("Original list: ", q_list)
     print("Rotated list: ", r_list)
 

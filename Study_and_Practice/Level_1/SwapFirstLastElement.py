@@ -9,4 +9,3 @@ def swap_elements(arr):
 arr = list(map(int, input("Enter the elements of the array separated by space: ").split()))
 print(arr)
 swap_elements(arr)
-

@@ -1,9 +1,8 @@
 # Remove all the spaces from the given string
 
 def remove_space(s):
-    ls = list(s)
     result = ""
-    for i in ls:
+    for i in s:
         if i != " ":
             result += i
     print(result)

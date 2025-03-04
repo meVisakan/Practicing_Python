@@ -2,5 +2,5 @@
 # In Python we have:
 # [if_true] if [expression] else [if_false]
 age = 25
-status = "married" if age > 30 else "unmarried"
+status = "adult" if age > 18 else "kid"
 print(status)

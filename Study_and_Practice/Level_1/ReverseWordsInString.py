@@ -13,5 +13,3 @@ def words_reversed(s):
 
 s = input("Enter a string whose words need to be reversed: ")
 words_reversed(s)
-
-

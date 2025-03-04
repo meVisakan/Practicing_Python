@@ -21,4 +21,11 @@ cart = {
     "Coconut": 8,
     "Apple": 1,
 }
+
 put_fruits(fruits, cart)
+
+# Same key-value addition does not happen
+cart.update(fruits)
+print(cart)
+result = cart | fruits
+print(result)

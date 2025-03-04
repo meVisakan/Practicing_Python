@@ -29,7 +29,7 @@ def run_length_encoding(s):
             print("No characters to be encoded")
             print("Non-encoded String: ", non_encoded_str)
         elif len(non_encoded_str) == 0:
-            print("No characters to not be encoded")
+            print("All characters to be encoded")
             print("Encoded String: ", encoded_str)
         else:
             print("Encoded String: ", encoded_str)
